@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QueryVM", "QueryVM\QueryVM.vcxproj", "{D02BBB19-C9AA-43E9-8662-C91304450E50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{35E1E64A-947B-4192-BBF7-F087A7F5E73D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QueryVMTests", "Tests\QueryVMTests\QueryVMTests.vcxproj", "{4A8EC5E9-F854-485B-9B47-BB37070E17B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D02BBB19-C9AA-43E9-8662-C91304450E50}.Debug|x64.ActiveCfg = Debug|x64
+		{D02BBB19-C9AA-43E9-8662-C91304450E50}.Debug|x64.Build.0 = Debug|x64
+		{D02BBB19-C9AA-43E9-8662-C91304450E50}.Release|x64.ActiveCfg = Release|x64
+		{D02BBB19-C9AA-43E9-8662-C91304450E50}.Release|x64.Build.0 = Release|x64
+		{4A8EC5E9-F854-485B-9B47-BB37070E17B3}.Debug|x64.ActiveCfg = Debug|x64
+		{4A8EC5E9-F854-485B-9B47-BB37070E17B3}.Debug|x64.Build.0 = Debug|x64
+		{4A8EC5E9-F854-485B-9B47-BB37070E17B3}.Release|x64.ActiveCfg = Release|x64
+		{4A8EC5E9-F854-485B-9B47-BB37070E17B3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A8EC5E9-F854-485B-9B47-BB37070E17B3} = {35E1E64A-947B-4192-BBF7-F087A7F5E73D}
+	EndGlobalSection
+EndGlobal
